@@ -14,4 +14,14 @@ VARIABLE RULES:
   - Can have numbers but can not start with one
 """
 
-x = 1
+# x = 1 #int
+# y = 2.5 #float
+# name = 'John' #string
+# is_cool = True #boolean has to be capitalized
+
+# Multiple assignment
+x, y, name, is_cool = (1, 2.5, 'John', True)
+
+# to print below
+print(x)
+print(type(x))
