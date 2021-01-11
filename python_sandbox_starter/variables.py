@@ -25,3 +25,6 @@ x, y, name, is_cool = (1, 2.5, 'John', True)
 # to print below
 print(x)
 print(type(x))
+
+#############
+#python3 strings.py to run in terminal
