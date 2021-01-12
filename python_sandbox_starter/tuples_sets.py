@@ -1,6 +1,7 @@
+
+
 # A Tuple is a collection which is ordered and UNCHANGEABLE. Allows duplicate members.
  
-
 #  create a tuple
 fruits = ('Apples', 'Oranges', 'Grapes')
 # fruits2 = tuple(('Apple', 'Oranges')) constructor way
@@ -30,6 +31,9 @@ print('Apples' in fruits_sets)
 
 # Add to set 
 fruits_sets.add('Grape')
+
+# Add duplicate
+# won't add anything that is already there
 
 # Remove from set
 fruits_sets.remove('Grape')
